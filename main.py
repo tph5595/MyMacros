@@ -1,6 +1,7 @@
 # import pandas as pd
 # import numpy as np
 
+
 class Person:
     def __init__(self, weight, bodyfat, height, age, sex):
         self.weight = weight
@@ -18,6 +19,7 @@ class Person:
     def fatMass(self):
         return self.weight * (self.bodyfat)
 
+# https://macrofactorapp.com/macrofactors-bmr/
 class BMR:
     # Metabolic adaptation adjustment
     @staticmethod
